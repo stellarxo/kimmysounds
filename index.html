@@ -1,1 +1,122 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="icon" href="../../favicon.ico">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Kimmy Sounds</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div class="container" style="text-align: center">
+
+
+    <h1>Sounds of Kimmy</h1>
+
+    <div class="row">
+    <button class="btn btn-default" onclick="play1()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy1" src="audio/Kimmy1.m4a" ></audio>
+	</button>
+	<button class="btn btn-default" onclick="play2()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy2" src="audio/Kimmy2.m4a" ></audio>
+	</button>
+	<button class="btn btn-default" onclick="play3()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy3" src="audio/Kimmy3.m4a" ></audio>
+	</button>
+	</div>
+
+	<div class="row">
+    <button class="btn btn-default" onclick="play4()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy4" src="audio/Kimmy4.m4a" ></audio>
+	</button>
+	<button class="btn btn-default" onclick="play5()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy5" src="audio/Kimmy5.m4a" ></audio>
+	</button>
+	<button class="btn btn-default" onclick="play6()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy6" src="audio/Kimmy6.m4a" ></audio>
+	</button>
+	</div>
+
+	<div class="row">
+    <button class="btn btn-default" onclick="play7()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy7" src="audio/Kimmy7.m4a" ></audio>
+	</button>
+	<button class="btn btn-default" onclick="play8()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy8" src="audio/Kimmy8.m4a" ></audio>
+	</button>
+	<button class="btn btn-default" onclick="play9()">
+    	<img src="images/kimmy1.png" width="100" />
+    	<audio id="kimmy9" src="audio/Kimmy9.m4a" ></audio>
+	</button>
+	</div>
+
+	</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    function play1() {
+       var audio = document.getElementById('kimmy1');
+       audio.play();
+    }
+    function play2() {
+       var audio = document.getElementById('kimmy2');
+       audio.play();
+    }
+    function play3() {
+       var audio = document.getElementById('kimmy3');
+       audio.play();
+    }
+    function play4() {
+       var audio = document.getElementById('kimmy4');
+       audio.play();
+    }
+    function play5() {
+       var audio = document.getElementById('kimmy5');
+       audio.play();
+    }
+    function play6() {
+       var audio = document.getElementById('kimmy6');
+       audio.play();
+    }
+    function play7() {
+       var audio = document.getElementById('kimmy7');
+       audio.play();
+    }
+    function play8() {
+       var audio = document.getElementById('kimmy8');
+       audio.play();
+    }
+    function play9() {
+       var audio = document.getElementById('kimmy9');
+       audio.play();
+    }
+    </script>
+
+    
+  </body>
+</html>
