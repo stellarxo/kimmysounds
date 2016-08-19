@@ -1,9 +1,10 @@
 body {
-	background-image: url("../images/background.png");
-	background-repeat: no-repeat;
+	background-image: url("../images/background.png"), url("../images/background2.png");
+	background-repeat: no-repeat, repeat;
 	background-attachment: fixed;
-	background-size: 1000px;
-	background-position: center;
+	background-size: 1000px, 100px;
+	background-position: fixed;
+	background-position: 120px 30px;
 	font-size: 30px;
 }
 
@@ -11,8 +12,8 @@ body {
 	display: block;
 	height: 100%;
 	width: 100%;
-	top: 100px;
-	left: 190px;
+	top: 120px;
+	left: 180px;
 	text-align: center;
 	position: fixed;
 }
@@ -69,4 +70,19 @@ body {
 	transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
 	border-bottom: 1px solid;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	text-decoration: none;
+	color: white;
 }
