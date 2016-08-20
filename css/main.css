@@ -2,21 +2,35 @@ body {
 	background-image: url("../images/background.png"), url("../images/background2.png");
 	background-repeat: no-repeat, repeat;
 	background-attachment: fixed;
-	background-size: 1000px, 100px;
+	background-size: 570px, 100px;
 	background-position: fixed;
-	background-position: 120px 30px;
+	background-position: 20px 10px;
 	font-size: 30px;
 }
 
-.sounds {
-	display: block;
-	height: 100%;
-	width: 100%;
-	top: 120px;
-	left: 180px;
-	text-align: center;
-	position: fixed;
+@media screen and (min-width: 700px) {
+	body {
+		background-image: url("../images/background.png"), url("../images/background2.png");
+		background-repeat: no-repeat, repeat;
+		background-attachment: fixed;
+		background-size: 1000px, 100px;
+		background-position: fixed;
+		background-position: 120px 30px;
+		font-size: 30px;
+	}
+
+	.sounds {
+		display: block;
+		height: 100%;
+		width: 100%;
+		top: 120px;
+		left: 180px;
+		text-align: center;
+		position: fixed;
+	}
+
 }
+
 
 .animate
 {
@@ -42,27 +56,6 @@ body {
 	background-color: #3498DB;
 	border-bottom: 5px solid #2980B9;
 	text-shadow: 0px -2px #2980B9;
-}
-
-.red
-{
-	background-color: #E74C3C;
-	border-bottom: 5px solid #BD3E31;
-	text-shadow: 0px -2px #BD3E31;
-}
-
-.green
-{
-	background-color: #82BF56;
-	border-bottom: 5px solid #669644;
-	text-shadow: 0px -2px #669644;
-}
-
-.yellow
-{
-	background-color: #F2CF66;
-	border-bottom: 5px solid #D1B358;
-	text-shadow: 0px -2px #D1B358;
 }
 
 .action-button:active
