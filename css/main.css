@@ -2,13 +2,13 @@ body {
 	background-image: url("../images/background.png"), url("../images/background2.png");
 	background-repeat: no-repeat, repeat;
 	background-attachment: fixed;
-	background-size: 570px, 100px;
+	background-size: 870px, 100px;
 	background-position: fixed;
-	background-position: 20px 10px;
+	background-position: 80px 10px;
 	font-size: 30px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1340px) {
 	body {
 		background-image: url("../images/background.png"), url("../images/background2.png");
 		background-repeat: no-repeat, repeat;
