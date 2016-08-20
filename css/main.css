@@ -8,6 +8,16 @@ body {
 	font-size: 30px;
 }
 
+.sounds {
+	display: block;
+	height: 100%;
+	width: 100%;
+	top: 80px;
+	left: 110px;
+	text-align: center;
+	position: fixed;
+}
+
 @media screen and (min-width: 1340px) {
 	body {
 		background-image: url("../images/background.png"), url("../images/background2.png");
@@ -29,6 +39,18 @@ body {
 		position: fixed;
 	}
 
+	.action-button
+	{
+	position: relative;
+	padding: 7px 35px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	/*font-family: 'Pacifico';*/
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;	
+	}
 }
 
 
@@ -41,7 +63,7 @@ body {
 .action-button
 {
 	position: relative;
-	padding: 7px 35px;
+	padding: 5px 30px;
   margin: 0px 10px 10px 0px;
   float: left;
 	border-radius: 10px;
